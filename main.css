@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chakra+Petch&display=swap');
+*{
+font-family: 'Architects Daughter', cursive;
+}
+.pic
+{background-image: url("images/pica.jpg")
+}
+*{
+    box-sizing: border-box;
+    padding: auto;
+    }
+.amh {text-align: center;
+    padding: auto;
+    border-style: double;
+    border-color: #32a6c4;
+    margin: 100px;
+    font-size: 50px;
+    width: 500px;}
+    
+.sh {text-align: center;
+        padding: auto;
+        border-style: solid;
+        border-color:burlywood;
+        margin: 50px;
+        font-size: 25px;
+        width: 500px;
+    }
+
+.am {
+    text-align: center;
+    padding: 100px;
+    border-style: solid;
+    border-color:burlywood;
+    margin: 100px;
+    font-size: 35px;
+}
+.tx {
+    text-align: center;
+    padding: auto;
+    border-style: solid;
+    border-color: burlywood;
+    margin: 50px;
+    font-size: 20px;}
+
+.cen {
+    
+        position: absolute; 
+        top: 5%;
+        left: 35%;
+        margin-top: auto;
+  margin-left: auto;
+      
+}    
+
+
+.logo {
+    float:left;
+}
+
+nav {
+    float: right;
+}    
+
+nav ul {
+    margin:100;
+    padding:0;
+    list-style:none;
+}
+
+nav li {
+    float: left;    margin-left: 140px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color:rgb(148, 168, 173);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(116, 139, 150) ;
+  }
+
+  .button {
+    background-color: #92a2af; /* Green */
+    border: none;
+    color:rgb(28, 0, 128);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
